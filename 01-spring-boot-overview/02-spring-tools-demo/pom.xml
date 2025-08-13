@@ -58,6 +58,10 @@
                 Settings > Advanced Settings
                     Check box: Allow auto-make to stat even if developer application is currently running
         -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
