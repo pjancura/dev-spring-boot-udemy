@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: core
+
+info:
+  app:
+    name: Core
+    description: Coursework related to the core of the Spring framework
+    version: 1.0.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+
+  info:
+    env:
+      enabled: true
